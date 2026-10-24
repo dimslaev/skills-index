@@ -1,0 +1,27 @@
+--------
+PLAN        P1  interview-me                    addy         one question at a time until it knows what you want
+            P2  idea-refine                     addy         widen an idea into options, then pick one
+            P3  grill-me                        matt         settle edge cases, then write the spec
+
+BUILD       B1  planning-and-task-breakdown     addy         break the spec into ordered tasks
+            B2  incremental-implementation      addy         build in thin, verified slices
+
+CLEAN       C1  code-simplification             addy         simplify working code without changing behavior
+            C2  deslop                          cursor       clean AI slop out of code
+            C3  unslop                          cursor       clean AI slop out of prose
+            C4  comment-sicko                   cursor       clean comments ruthlessly, flag code to reshape
+
+REVIEW      R1  code-review-and-quality         addy         review code on five axes before merge
+            R2  security-and-hardening          addy         check for common security holes
+            R3  receiving-code-review           superpowers  check review feedback before applying it
+
+WRITE       W1  documentation-and-adrs          addy         record decisions as ADRs, keep docs current
+            W2  pr                              matt         short PR body: visual summary, evidence, impact
+            W3  pr-bullets                      local        PR body as 5-10 word bullets against the parent
+            W4  technical-writing               cursor       doc structure and sentence rules
+
+MISC        M1  handoff                         matt         write the session down for a fresh one
+            M2  wait-what                       matt         ask the agent to repeat in simple language
+
+reply with a code, e.g.  B2 add rate limiting   ·   several: C1 C2
+(agent: a code means read ~/.agents/skills/<skill>/SKILL.md and follow it; text after the code is the task)

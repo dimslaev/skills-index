@@ -1,0 +1,1 @@
+{ "name": "skills-index", "version": "0.1.0", "description": "/index prints ~/.agents/skills-index.txt without a model call" }
