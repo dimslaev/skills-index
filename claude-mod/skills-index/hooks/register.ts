@@ -10,7 +10,6 @@ export const register: Register = on => {
 
   on('command.run', { command: 'index' }, async $ => {
     const text = await $.fs.read(INDEX)
-    // context: the model reads the codes with the next prompt, so "B2 <task>" works
     return { text, context: [text] }
   })
 }

@@ -36,6 +36,7 @@ Where each skill came from. `local` means the skill is rewritten here and has no
 | planning-and-task-breakdown | addyosmani/agent-skills                                    | skills/planning-and-task-breakdown                  |
 | pr                          | mattpocock/skills                                          | skills/engineering/pr                               |
 | pr-bullets                  | local                                                      | none                                                |
+| auto                        | local                                                      | none                                                |
 | receiving-code-review       | obra/superpowers                                           | skills/receiving-code-review                        |
 | security-and-hardening      | addyosmani/agent-skills                                    | skills/security-and-hardening                       |
 | technical-writing           | cursor/plugins                                             | harness/pstack/claude-code/skills/technical-writing |

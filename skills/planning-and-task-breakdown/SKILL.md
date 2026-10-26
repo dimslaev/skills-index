@@ -104,6 +104,7 @@ Each task follows this structure, whether it lands in the markdown task list or 
 
 - `src/path/to/file.ts`
 - `tests/path/to/test.ts`
+- `src/path/to/similar.ts` (read only: the pattern to follow)
 
 **Estimated scope:** [Small: 1-2 files | Medium: 3-5 files | Large: 5+ files]
 ```

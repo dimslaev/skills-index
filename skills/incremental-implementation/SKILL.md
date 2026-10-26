@@ -196,6 +196,14 @@ verify nothing is broken."
 
 Be explicit about what's in scope and what's NOT in scope for each increment.
 
+When asked to run a plan unattended (opencode), don't implement it yourself. Run this from the repo root, report its output, and stop:
+
+```sh
+~/.agents/skills/auto/run.sh <topic>
+```
+
+It does each task of the current phase in its own session, forked from one shared prep, and stops at the next checkpoint.
+
 ## Increment Checklist
 
 After each increment, verify with the repository's own commands:
